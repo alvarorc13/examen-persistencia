@@ -1,5 +1,7 @@
 package main.java.service;
 
+import java.time.LocalTime;
+
 import org.hibernate.Session;
 
 import main.java.model.Central;
@@ -30,13 +32,15 @@ public class RegistroService {
 		return registro;
 	}
 	
-	public void actualizar(long id, long idRegistro) {
+	public void actualizar(long id, LocalTime momento, long watios) {
 		Session session = ConnectionUtil.getSessionFactory().openSession();
 		session.beginTransaction();
 		
 		Registro registro = session.find(Registro.class, id);
 		
-		registro.setIdRegistro(idRegistro);
+		registro.setMomento(momento);
+		registro.setWatios(watios);
+		
 		session.merge(registro);
 		session.getTransaction().commit();
 		session.close();

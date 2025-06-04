@@ -13,6 +13,8 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.OneToMany;
 
+
+
 @Entity(name = "central")
 public class Central {
 
@@ -63,8 +65,8 @@ public class Central {
 
 	@Override
 	public String toString() {
-		return "Central [id=" + id + ", codigo=" + codigo + ", tipoCentral=" + tipoCentral + ", registros=" + registros
-				+ "]";
+	    return "Central [id=" + id + ", codigo=" + codigo + ", tipoCentral=" + tipoCentral 
+	           + ", registrosIds=" + registros.stream().map(r -> r.getIdRegistro()).toList() + "]";
 	}
 	
 	

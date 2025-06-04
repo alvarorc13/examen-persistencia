@@ -40,11 +40,11 @@ public class Registro {
 		this.central = central;
 	}
 
-//	@Override
-//	public String toString() {
-//		return "Registro [idRegistro=" + idRegistro + ", momento=" + momento + ", watios=" + watios + ", central="
-//				+ central + "]";
-//	}
+	@Override
+	public String toString() {
+	    return "Registro [idRegistro=" + idRegistro + ", momento=" + momento + ", watios=" + watios 
+	           + ", centralId=" + (central != null ? central.getId() : "null") + "]";
+	}
 
 	public long getIdRegistro() {
 		return idRegistro;
