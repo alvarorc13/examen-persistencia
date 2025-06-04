@@ -1,0 +1,70 @@
+06-04 10:29:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 10:32:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 10:41:29 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 10:43:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 10:47:43 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 11:00:54 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 11:00:54 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 11:01:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 11:01:16 jdbc[4]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
+06-04 11:01:16 jdbc[5]: exception
+org.h2.jdbc.JdbcSQLException: Table "IF" not found; SQL statement:
+
+    alter table if exists public.registro 
+       add constraint central_id_fk 
+       foreign key (id_central) 
+       references public.central [42102-174]
