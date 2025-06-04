@@ -40,6 +40,12 @@ public class Registro {
 		this.central = central;
 	}
 
+//	@Override
+//	public String toString() {
+//		return "Registro [idRegistro=" + idRegistro + ", momento=" + momento + ", watios=" + watios + ", central="
+//				+ central + "]";
+//	}
+
 	public long getIdRegistro() {
 		return idRegistro;
 	}

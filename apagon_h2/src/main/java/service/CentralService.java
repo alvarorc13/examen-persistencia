@@ -1,5 +1,6 @@
 package main.java.service;
 
+import org.hibernate.Hibernate;
 import org.hibernate.Session;
 
 import main.java.model.Central;
@@ -21,6 +22,8 @@ public class CentralService {
 		session.beginTransaction();
 
 		Central central = session.find(Central.class, id);
+	    Hibernate.initialize(central.getRegistros()); // Forzar carga de registros
+
 		session.close();
 		return central;
 	}
